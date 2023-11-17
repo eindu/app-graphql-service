@@ -1,0 +1,9 @@
+type Query {
+    items:[Item]
+}
+
+type Item{
+    name: String
+    price : Float
+    type: String
+}
