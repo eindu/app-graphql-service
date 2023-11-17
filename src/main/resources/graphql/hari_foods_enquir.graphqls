@@ -1,9 +1,12 @@
 type Query {
     items:[Item]
+    item(type : String):[Item]
 }
 
 type Item{
-    name: String
-    price : Float
+    itemId: Int
+    name : String
     type: String
+    price: Int
+    itemType: String
 }
